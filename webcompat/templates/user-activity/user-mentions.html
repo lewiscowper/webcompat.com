@@ -1,11 +1,9 @@
-<div class="wc-UIContent" id="user-mentioned-issues">
-  <div class="wc-ListIssue-subtitle">
-    <h2 class="wc-Title--l">Issues mentioning {{user}}</h2>
-  </div>
+<div class="grid grid-show-gap" id="user-mentioned-issues">
+  <h2 class="headline-2">Issues mentioning {{user}}</h2>
   <div class="wc-ListIssue-pagination">
     {% include "web_modules/pagination.html" %}
   </div>
-  <div id="issue-mentions">
+  <div class="grid-cell" id="issue-mentions">
     {% include "web_modules/issue-list.jst" %}
   </div>
 </div>

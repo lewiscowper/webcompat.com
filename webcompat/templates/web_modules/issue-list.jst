@@ -1,7 +1,7 @@
 <script type="text/template">
   <% if (issues.length) { %>
     <% _.each(issues, function(issue) { %>
-      <article class="wc-IssueList wc-IssueList--<%= issue.stateClass %> wc-IssueList--large js-IssueList">
+      <article class="grid-cell wc-IssueList wc-IssueList--<%= issue.stateClass %> wc-IssueList--large js-IssueList">
         <div class="wc-IssueList-section">
           <header class="wc-IssueList-header">
             <a class="wc-Link" href="/issues/<%= issue.number %>">
